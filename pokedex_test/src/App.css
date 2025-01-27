@@ -1,0 +1,15 @@
+.pokedex {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  min-width: 100vw;
+  min-height: 100vh;
+  max-height: 100vh;
+  padding: 1.5rem;
+  gap: 1.5rem;
+}
+
+.bordered-element {
+  border-radius: 0.5rem;
+  border: 0.2rem solid #ff8585;
+}

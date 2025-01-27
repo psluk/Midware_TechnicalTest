@@ -1,0 +1,7 @@
+.pokemon-list {
+  width: 33%;
+  background-color: #480101;
+  min-height: 100%;
+  color: white;
+  overflow-y: auto;
+}

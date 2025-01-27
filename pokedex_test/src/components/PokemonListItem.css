@@ -1,0 +1,36 @@
+.pokemon-list-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 0.2rem solid #710808;
+  padding: 1rem 3rem;
+  cursor: pointer;
+}
+
+.pokemon-list-item.active-pokemon {
+    background-color: #710808;
+}
+
+.pokemon-list-item:not(.active-pokemon):hover {
+    background-color: #5d0505;
+}
+
+.pokemon-list-item > picture {
+  width: 20%;
+}
+
+.pokemon-list-item img {
+  max-width: 4rem;
+  height: auto;
+}
+
+.pokemon-name {
+  font-weight: bold;
+  font-size: 1.3rem;
+  width: 50%;
+}
+
+.pokemon-index {
+  width: 30%;
+  text-align: right;
+}
